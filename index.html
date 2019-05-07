@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>typeScript Secret Message</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <h1>Encode/Decode</h1>
+    <label for="encryptionSelect">Choose your encryption:</label>
+    <select name="encryptionSelect" id="encryptionSelect">
+        <option value="rsa" selected>RSA Subtle Crypto</option>
+        <option value="base64">Base64</option>
+        <option value="unicode">Unicode +1</option>
+    </select>
+    <br>
+    <label for="inputText">Paste in message to encode or decode here:</label>
+    <br>
+    <textarea rows="4" cols="50" id="inputText" name="inputText" class="textInput" required></textarea>
+    <br>
+    <button id="encryptBtn">Encrypt</button>
+    <button id="decryptBtn">Decrypt</button>
+    <p>Your message:</p>
+    <p id="outputText">Message here</p>
+    <p id="decryptText"></p>
+    <script src="script.js"></script>
+</body>
+</html>
