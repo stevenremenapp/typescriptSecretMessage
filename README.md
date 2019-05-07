@@ -7,6 +7,7 @@ I don't know if I will return to this project and I didn't but in enough time to
 - Style and cleaning up the presentation in general
 - Addressing ["the Unicode Problem"](https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding#The_Unicode_Problem) in my Base64 encoding and decoding
 - Refactoring the script so it's cleaner
+- Input validation, escaping, trimming, etc.
 - Making the limitations of the SubtleCrypto option clearer (only 256 bytes/190 characters allowed; it's one encryption in to one decryption out -- an encrypted message is only good for that session and fails if another message has since been encrypted)
 - Error handling
 - Creating a click to copy icon that allows the user to copy the created messages with one click
