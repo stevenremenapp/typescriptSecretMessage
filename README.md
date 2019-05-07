@@ -11,4 +11,4 @@ I don't know if I will return to this project and I didn't but in enough time to
 - Error handling
 - Creating a click to copy icon that allows the user to copy the created messages with one click
 
-Try it out here: 
+Try it out here: https://stevenremenapp.github.io/typescriptSecretMessage/index.html
